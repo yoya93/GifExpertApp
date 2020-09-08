@@ -11,3 +11,18 @@ input {
   font-size: 1.3rem;
   width: 100%;
 }
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  border-bottom: 10px;
+  border-right: 10px;
+  overflow: hidden;
+}
