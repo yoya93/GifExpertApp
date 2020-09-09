@@ -4,8 +4,8 @@ import "./index.css";
 import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
-export const GifExpertapp = () => {
-  const [categories, setCategories] = useState(["Frutas"]);
+export const GifExpertapp = ({ defaultscategories = [] }) => {
+  const [categories, setCategories] = useState(defaultscategories);
 
   return (
     <>

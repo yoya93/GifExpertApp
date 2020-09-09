@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifExpertapp />  debe mostrarse correctamente  1`] = `
+<Fragment>
+  <h1>
+    GifExpertapp 
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas en <GifExpertapp />  debe renderizar un numero de items por ctegories recibidas 1`] = `
+<Fragment>
+  <h1>
+    GifExpertapp 
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Griezman"
+      key="Griezman"
+    />
+    <GifGrid
+      category="Messi"
+      key="Messi"
+    />
+  </ol>
+</Fragment>
+`;
